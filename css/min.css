@@ -1,0 +1,6 @@
+.bg-cover{
+	background: url(images/diana1.jpg);
+	height: 300px;
+	background-size: cover;
+
+}

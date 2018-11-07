@@ -1,22 +1,28 @@
-<html>
 <!DOCTYPE html>
-<head><style>a:link, a:visited {background-color:#1a1a00;
-	text-decoration: none;
-    color: white;
-    padding: 1px 1px;
-    text-align:;
-    text-decoration: none;
-    display: inline-block;}
-    a:hover, a:active {
-    background-color: #ffffb3;}
-</style>
-
+<html>
+<head>
+	<style>
+	    /*a:link, a:visited {
+		background-color:#1a1a00;
+		text-decoration: none;
+    	color: white;
+    	padding: 1px 1px;
+    	text-align:;
+    	text-decoration: none;
+    	display: inline-block;}
+    	a:hover, a:active {
+   		background-color: #ffffb3;}
+		   */
+	</style>
 	<title>home page</title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="style.css"/>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
 </head>
+<!--
 <body class="body1">
- <nav class="navbar-default">
+	<nav class="navbar-default">
 <div class="navbar" align="center" id="nav">
     <ul>
 	<h3 class="top"><a href="home.html"><cite class="home">Home</cite></a>
@@ -25,17 +31,55 @@
 	</ul>
 	</div>
 	</nav>
-	<br>
-	<br>
-<div>
-<center><img src="best.jpg" width="300" height="300"></center>
-</div>
+-->
 
-<p>Web design has been an interest to each and everyone taking a technology course. All of them have been struggling to atleast get to learn and know how to design a basic website by knowing the basic website design techniques and codes. Moreover, to be an excellent web designer and building the smartest website, you need to start from somewhere.
-<p> I therefore would not wish to be left behind and take that step and begin my web design career here by designing this simple website about me.</p>
-<p>This is a simple website that i have created to basically talk and tell more about myself. It is kind of my curriculum vitae(CV) website</p>
-<h3><textarea>leave your comment here</textarea></h3>
+<!--Navbar-->
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" href="#" >WEARETHEWINNERS</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutme.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="login.php">Login</a></li>
+                <li><a href="signup.php">Signup</a></li>
+            </ul>
+        </div>
+        </div>
+</nav>
+<!--End of navbar-->
+<!--Body-->
+<body class="body">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6"> 
+				<div>
+					<p>Web design has been an interest to each and everyone taking a technology course. All of them have been struggling to atleast get to learn and know how to design a basic website by knowing the basic website design techniques and codes. Moreover, to be an excellent web designer and building the smartest website, you need to start from somewhere.
+					<p> I therefore would not wish to be left behind and take that step and begin my web design career here by designing this simple website about me.</p>
+					<p>This is a simple website that i have created to basically talk and tell more about myself. It is kind of my curriculum vitae(CV) website</p>
+						<h3><textarea>leave your comment here</textarea></h3>
+				</div>
+			</div>
+	<div class="col-md-6">
+		<center><img src="best.jpg" width="300" height="200"></center>
+		<!--<h4 class="BACK"><a href="home.html"> BACK</a></h4>-->
+	</div>
+	</div>
+	</div>
 
-<h4 class="BACK"><a href="home.html"> BACK</a></h4>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+<!--End of body-->
 </body>
 </html>
